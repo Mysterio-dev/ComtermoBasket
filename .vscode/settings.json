@@ -1,0 +1,13 @@
+{
+    "json.schemas": [
+
+    ],
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "emmet.includeLanguages": {
+        "twig": "html"
+    }
+}

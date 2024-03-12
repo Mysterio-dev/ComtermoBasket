@@ -1,0 +1,33 @@
+.tabs {
+	// .tabs__navigation
+	&__navigation {
+		display: flex;
+		margin-bottom: rem(20);
+	}
+	// .tabs__title
+	&__title {
+		background: var(--white);
+		padding: rem(10) rem(15);
+		border-radius: rem(2);
+		max-width: rem(200);
+		width: 100%;
+		transition: background-color .15s, color .15s, border-color .15s;
+
+		&:hover {
+			color: var(--orange);
+		}
+
+		&._tab-active {
+			border-color: var(--orange);
+			background: var(--orange);
+			color: #fff;
+		}
+	}
+	// .tabs__content
+	&__content {
+
+	}
+	// .tabs__body
+	&__body {
+	}
+}

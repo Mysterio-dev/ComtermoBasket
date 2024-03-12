@@ -1,0 +1,176 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+.status {
+    display: flex;
+    gap: rem(5);
+
+
+    // ._available
+
+    &._available {
+        color: #00ad12;
+    }
+
+    &._not-available {
+        color: #f35050;
+    }
+
+    // .status__icon
+
+    &__icon {
+        svg {
+            width: rem(12);
+            height: rem(12);
+        }
+    }
+
+    // .status__text
+
+    &__text {
+        font-size: rem(12);
+        white-space: nowrap;
+    }
+
+
+
+}
+
+.tippy-info {
+    position: absolute;
+    bottom: rem(10);
+    right: rem(10);
+    z-index: 1;
+
+    &:hover {
+        svg {
+            color: var(--black);
+        }
+    }
+
+    svg {
+        transition: all .15s;
+        color: #909090;
+    }
+}
+
+.toast-error {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: rem(2);
+}
+
+.toast-success {
+    box-shadow: none;
+    border: 1px solid var(--gray-light);
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: rem(2);
+}
+
+.icon-brand-small {
+    display: block;
+    width: rem(15);
+    height: rem(15);
+    background-image: url('@img/icons/logo.png');
+    background-size: contain;
+}
+
+
+.icon-mastercard {
+    display: block;
+    width: rem(25);
+    height: rem(25);
+    background-image: url('@img/icons/payment/mastercard.svg');
+    background-size: contain;
+}
+
+.icon-visa {
+    display: block;
+    width: rem(25);
+    height: rem(25);
+    background-image: url('@img/icons/payment/visa.svg');
+    background-size: contain;
+}
+
+.icon-mir {
+    display: block;
+    width: rem(25);
+    height: rem(25);
+    background-image: url('@img/icons/payment/mir.svg');
+    background-size: contain;
+}
+
+
+
+@media print {
+    .c-cart__orderForm {
+        display: none;
+    }
+
+    .c-cart__top .c-cart__top-right {
+        display: none;
+    }
+
+    .btn__primary {
+        display: none;
+    }
+
+    .c-cart__disclaimer {
+        display: none;
+    }
+
+
+    .c-cart__order-item .c-cart__delete {
+        display: none;
+    }
+
+    .c-cart__container {
+        width: 100%;
+    }
+
+    .c-cart .c-cart__top {
+        display: none;
+    }
+
+    .c-cart__column-content .c-cart__content {
+        border: none;
+    }
+
+    .c-cart__aside-wrap .c-cart__paymentDetails {
+        border: 0;
+    }
+
+    .c-cart__status {
+        display: none;
+    }
+
+    .c-cart__order-item .c-cart__order-content {
+        flex-direction: row;
+    }
+
+    .quantity .quantity__button {
+        display: none;
+    }
+
+    .quantity .quantity__input {
+        border: none;
+    }
+
+    .header .header__wrapper {
+        justify-content: center;
+    }
+
+    .c-cart__infoBlock .c-cart__infoRow {
+        margin-bottom: rem(10);
+    }
+
+    .c-cart__aside {
+        margin-top: rem(50);
+    }
+
+    .c-cart__order-item {
+        padding: rem(3) 0;
+    }
+
+    .c-cart__order .c-cart__order-item {
+        border-bottom: 1px solid var(--gray-light);
+    }
+}

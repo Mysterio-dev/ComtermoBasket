@@ -1,0 +1,139 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+    display: inline-flex;
+    padding: 0px 0px;
+
+    @media (any-hover: hover) {
+        &:hover {}
+    }
+
+    &._fw {
+        width: 100%;
+    }
+}
+
+
+.btn {
+
+    &__print,
+    &__trash {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: rem(25);
+        height: rem(25);
+        padding: rem(5);
+        background: var(--white);
+
+        svg {
+            transition: all .15s;
+        }
+
+        &:hover {
+            svg {
+                color: #ff8838;
+            }
+        }
+
+        svg {
+            width: rem(13);
+        }
+    }
+
+
+
+    // .btn__primary
+
+    &__primary {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        border-radius: rem(2);
+        transition: background-color .3s, color .3s, border-color .3s, opacity .3s, transform .15s;
+        user-select: none;
+        padding: 0.875rem 2.25rem;
+        height: rem(40);
+        color: #fff;
+        background-color: var(--orange);
+        width: 100%;
+
+        &:hover {
+            background-color: #fd8230;
+        }
+
+    }
+
+    &__small-primary {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        border-radius: rem(2);
+        transition: background-color .3s, color .3s, border-color .3s, opacity .3s, transform .15s;
+        user-select: none;
+        padding: rem(5) rem(10);
+        height: rem(30);
+        color: #fff;
+        background-color: var(--orange);
+        width: 100%;
+
+        &:hover {
+            background-color: #ff8838;
+        }
+    }
+
+    &__small-secondary {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        border-radius: rem(2);
+        transition: background-color .3s, color .3s, border-color .3s, opacity .3s, transform .15s;
+        user-select: none;
+        padding: rem(5) rem(10);
+        height: rem(30);
+        color: var(--black);
+        background-color: var(--gray-light);
+        width: 100%;
+
+        &:hover {
+            background-color: #e6e6e6;
+        }   
+    }
+
+    // .btn__primary-secondary
+
+    &__primary-secondary {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        border-radius: rem(2);
+        transition: background-color .3s, color .3s, border-color .3s, opacity .3s, transform .15s;
+        user-select: none;
+        padding: 0.875rem 2.25rem;
+        height: rem(40);
+        background-color: #f8f9fa;
+        width: 100%;
+
+        &:hover {
+            background-color: #eeeeee;
+        }
+    }
+
+    // .btn__print
+
+
+
+}

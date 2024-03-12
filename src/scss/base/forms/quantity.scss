@@ -1,0 +1,109 @@
+//<QUANTITY>
+// Снипет (HTML): qa
+.quantity {
+	@media (min-width:$mobile){
+		min-width: rem(88);
+		width: rem(88);
+		height: rem(26);
+	}
+
+	@media (max-width:$mobile){
+		width: rem(66);
+		height: rem(20);  
+	}
+
+	display: flex;
+	// .quantity__button
+	&__button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		cursor: pointer;
+		background-color: var(--gray-light-2);
+
+		&.disabled {
+			opacity: .6;
+			pointer-events: none;
+		}
+
+		&:hover {
+			background: var(--orange);
+
+			.fill {
+				fill: #fff;
+			}
+					
+		}
+
+
+		@media (min-width:$mobile){
+			flex: 0 0 rem(26);
+		}
+
+		@media (max-width:$mobile){
+			 flex: 0 0 rem(20); 
+		}
+
+
+
+	
+		@media (any-hover: hover) {
+			&:hover {
+				&::before,
+				&::after {
+					background-color: rgba(0, 0, 0, 0.5);
+				}
+			}
+		}
+
+		// .quantity__button_plus
+		&_plus {
+			svg {
+
+				@media (min-width:$mobile){
+					width: rem(8);
+					height: rem(8);  
+				}
+
+				@media (max-width:$mobile){
+					 width: rem(6);
+					 height: rem(6); 
+				}
+			}
+	
+		}
+		// .quantity__button_minus
+		&_minus {
+		
+			svg {
+
+				@media (min-width:$mobile){
+					width: rem(8);
+					height: rem(8);  
+				}
+
+				@media (max-width:$mobile){
+					 width: rem(6);
+					 height: rem(6); 
+				}
+			}
+
+		}
+
+	
+	}
+	// .quantity__input
+	&__input {
+		flex: 1 1 auto;
+		border-top: rem(1) solid #eaf0f5;
+		border-bottom: rem(1) solid #eaf0f5;
+		input {
+			@include adaptiveValue("font-size", 13,11 );
+			height: 100%;
+			width: 100%;
+			text-align: center;
+			outline: none;
+		}
+	}
+}

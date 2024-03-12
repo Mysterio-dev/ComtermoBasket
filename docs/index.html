@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Корзина - Comtermo</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240312124849">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__wrapper">
+					<a href="" class="header__logo">
+						<img src="img/logo.png" alt="">
+					</a>
+					<div class="header__contacts">
+						<a href="tel:+74956431890" class="header__phone">
+							+7 (495) 643-18-90
+						</a>
+						<span class="header__contacts-info">
+							пн-пт 9:00-19:00
+						</span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<main class="page">
+			<section class="c-cart">
+				<div class="c-cart__container">
+					<form action="" id="form">
+						<div class="c-cart__top">
+							<div class="c-cart__top-left">
+								<h1 class="c-cart__top-title">
+									Корзина
+								</h1>
+								<div class="c-cart__top-count">
+									<span class="c-cart__top-number"></span>
+								</div>
+							</div>
+
+							<div class="c-cart__top-right">
+								<button type="button" class="btn__trash" data-popup="#clearCart">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+										<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+										<path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+									</svg>
+								</button>
+								<button type="button" class="btn__print" onclick="window.print()">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer" viewBox="0 0 16 16">
+										<path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+										<path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="c-cart__row">
+							<div class="c-cart__column-content">
+								<div class="c-cart__content">
+									<ul class="c-cart__order">
+										<li class="c-cart__order-item">
+											<div class="c-cart__order-wrap">
+												<div class="c-cart__order-picture">
+													<a href="">
+														<img src="img/products/1.jpg" alt="">
+													</a>
+												</div>
+											</div>
+											<div class="c-cart__order-content">
+												<div class="c-cart__order-inner">
+													<div class="c-cart__order-article">
+														Артикул:
+														<span>Deluxe Comfort Plus 30k</span>
+													</div>
+													<a href="" class="c-cart__order-title">
+														Котел газовый настенный Navien Deluxe Comfort Plus - 30 кВт (двухконтурный,
+														закрытая камера)
+													</a>
+												</div>
+												<div class="c-cart__bottom">
+													<div class="c-cart__status">
+														<div class="status _available">
+															<i class="status__icon">
+																<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+																	<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+																</svg>
+															</i>
+															<span class="status__text">
+																в наличие
+															</span>
+														</div>
+													</div>
+													<div class="c-cart__wrap">
+														<div class="c-cart__quantity">
+															<div class="c-cart__firstPrice"></div>
+															<div class="quantity">
+																<div class="quantity__button quantity__button_minus _icon-minus">
+																	<svg width="12" height="2" viewBox="0 0 12 2" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-2-7h16V9H-2z"></path>
+																			<path class="fill" fill="#000" d="M0 0h12v2H0z"></path>
+																		</g>
+																	</svg>
+																</div>
+																<div class="quantity__input">
+																	<input autocomplete="off" type="text" name="form[]" value="1">
+																</div>
+																<div class="quantity__button quantity__button_plus _icon-plus">
+																	<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-3-3h16v16H-3z"></path>
+																			<path d="M6 0v4h4v2H6v4H4V6H0V4h4V0h2Z" class="fill" fill="#000">
+																			</path>
+																		</g>
+																	</svg>
+																</div>
+															</div>
+														</div>
+
+														<div class="c-cart__price-item">
+															<div class="c-cart__total">
+																<div class="c-cart__summary">
+																	<div class="c-cart__price">50</div>
+																	<span data-type="currency">руб.</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<button type="button" class="c-cart__delete">
+														<svg width="12" height="17" viewBox="0 0 12 17" xmlns="http://www.w3.org/2000/svg">
+															<g fill="none" fill-rule="evenodd">
+																<path d="M-6-3h24v24H-6z"></path>
+																<path d="M1 6.003V16c0 .533.458 1 1 1h7.995c.543 0 1.005-.467 1.005-1V6.003H1ZM4.002 15H2.996V8h1.006v7Zm2.482 0h-.968V8h.968v7Zm2.515-7v7H8V8h.999ZM6.562 0C7.51 0 8.28.757 8.28 1.688v.36h1.715c1.106 0 2.005.883 2.005 1.97L11.999 4H.001l.005-.13c.073-.969.863-1.745 1.85-1.817l.149-.005H3.72v-.36C3.72.758 4.49 0 5.438 0Zm0 .95H5.438c-.414 0-.75.331-.75.738v.36h2.624v-.36a.745.745 0 0 0-.75-.737Z" class="fill" fill="#000"></path>
+															</g>
+														</svg>
+													</button>
+												</div>
+
+											</div>
+										</li>
+										<li class="c-cart__order-item">
+											<div class="c-cart__order-wrap">
+												<div class="c-cart__order-picture">
+													<a href="">
+														<img src="img/products/2.jpg" alt="">
+													</a>
+												</div>
+											</div>
+											<div class="c-cart__order-content">
+												<div class="c-cart__order-inner">
+													<div class="c-cart__order-article">
+														Артикул:
+														<span>47HF826AA</span>
+													</div>
+													<a href="" class="c-cart__order-title">
+														Насос центробежный Pedrollo HF 20A (4,0 кВт, 3x230/400 В, PN10, Qmax 1700
+														л/мин, Hmax 21,5 м)
+													</a>
+												</div>
+												<div class="c-cart__bottom">
+													<div class="c-cart__status">
+														<div class="status _not-available">
+															<i class="status__icon">
+																<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f35050" viewBox="0 0 16 16">
+																	<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+																</svg>
+															</i>
+															<span class="status__text">
+																под заказ
+															</span>
+														</div>
+													</div>
+													<div class="c-cart__wrap">
+														<div class="c-cart__quantity">
+															<div class="c-cart__firstPrice"></div>
+															<div class="quantity">
+																<div class="quantity__button quantity__button_minus _icon-minus">
+																	<svg width="12" height="2" viewBox="0 0 12 2" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-2-7h16V9H-2z"></path>
+																			<path class="fill" fill="#000" d="M0 0h12v2H0z"></path>
+																		</g>
+																	</svg>
+																</div>
+																<div class="quantity__input">
+																	<input autocomplete="off" type="text" name="form[]" value="1">
+																</div>
+																<div class="quantity__button quantity__button_plus _icon-plus">
+																	<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-3-3h16v16H-3z"></path>
+																			<path d="M6 0v4h4v2H6v4H4V6H0V4h4V0h2Z" class="fill" fill="#000">
+																			</path>
+																		</g>
+																	</svg>
+																</div>
+															</div>
+														</div>
+
+														<div class="c-cart__price-item">
+															<div class="c-cart__total">
+																<div class="c-cart__summary">
+																	<div class="c-cart__price">50</div>
+																	<span data-type="currency">руб.</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<button type="button" class="c-cart__delete">
+														<svg width="12" height="17" viewBox="0 0 12 17" xmlns="http://www.w3.org/2000/svg">
+															<g fill="none" fill-rule="evenodd">
+																<path d="M-6-3h24v24H-6z"></path>
+																<path d="M1 6.003V16c0 .533.458 1 1 1h7.995c.543 0 1.005-.467 1.005-1V6.003H1ZM4.002 15H2.996V8h1.006v7Zm2.482 0h-.968V8h.968v7Zm2.515-7v7H8V8h.999ZM6.562 0C7.51 0 8.28.757 8.28 1.688v.36h1.715c1.106 0 2.005.883 2.005 1.97L11.999 4H.001l.005-.13c.073-.969.863-1.745 1.85-1.817l.149-.005H3.72v-.36C3.72.758 4.49 0 5.438 0Zm0 .95H5.438c-.414 0-.75.331-.75.738v.36h2.624v-.36a.745.745 0 0 0-.75-.737Z" class="fill" fill="#000"></path>
+															</g>
+														</svg>
+													</button>
+												</div>
+
+											</div>
+										</li>
+										<li class="c-cart__order-item">
+											<div class="c-cart__order-wrap">
+												<div class="c-cart__order-picture">
+													<a href="">
+														<img src="img/products/3.jpg" alt="">
+													</a>
+												</div>
+											</div>
+											<div class="c-cart__order-content">
+												<div class="c-cart__order-inner">
+													<div class="c-cart__order-article">
+														Артикул:
+														<span>SFT-0028-003818</span>
+													</div>
+													<a href="" class="c-cart__order-title">
+														Футорка STOUT SFT 0028 - 3/8" x 1/8" (для стальных труб, латунь без
+														покрытия)
+													</a>
+												</div>
+												<div class="c-cart__bottom">
+													<div class="c-cart__status">
+														<div class="status _not-available">
+															<i class="status__icon">
+																<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f35050" viewBox="0 0 16 16">
+																	<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z" />
+																</svg>
+															</i>
+															<span class="status__text">
+																под заказ
+															</span>
+														</div>
+													</div>
+													<div class="c-cart__wrap">
+														<div class="c-cart__quantity">
+															<div class="c-cart__firstPrice"></div>
+															<div class="quantity">
+																<div class="quantity__button quantity__button_minus _icon-minus">
+																	<svg width="12" height="2" viewBox="0 0 12 2" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-2-7h16V9H-2z"></path>
+																			<path class="fill" fill="#000" d="M0 0h12v2H0z"></path>
+																		</g>
+																	</svg>
+																</div>
+																<div class="quantity__input">
+																	<input autocomplete="off" type="text" name="form[]" value="1">
+																</div>
+																<div class="quantity__button quantity__button_plus _icon-plus">
+																	<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-3-3h16v16H-3z"></path>
+																			<path d="M6 0v4h4v2H6v4H4V6H0V4h4V0h2Z" class="fill" fill="#000">
+																			</path>
+																		</g>
+																	</svg>
+																</div>
+															</div>
+														</div>
+
+														<div class="c-cart__price-item">
+															<div class="c-cart__total">
+																<div class="c-cart__summary">
+																	<div class="c-cart__price">50</div>
+																	<span data-type="currency">руб.</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<button type="button" class="c-cart__delete">
+														<svg width="12" height="17" viewBox="0 0 12 17" xmlns="http://www.w3.org/2000/svg">
+															<g fill="none" fill-rule="evenodd">
+																<path d="M-6-3h24v24H-6z"></path>
+																<path d="M1 6.003V16c0 .533.458 1 1 1h7.995c.543 0 1.005-.467 1.005-1V6.003H1ZM4.002 15H2.996V8h1.006v7Zm2.482 0h-.968V8h.968v7Zm2.515-7v7H8V8h.999ZM6.562 0C7.51 0 8.28.757 8.28 1.688v.36h1.715c1.106 0 2.005.883 2.005 1.97L11.999 4H.001l.005-.13c.073-.969.863-1.745 1.85-1.817l.149-.005H3.72v-.36C3.72.758 4.49 0 5.438 0Zm0 .95H5.438c-.414 0-.75.331-.75.738v.36h2.624v-.36a.745.745 0 0 0-.75-.737Z" class="fill" fill="#000"></path>
+															</g>
+														</svg>
+													</button>
+												</div>
+
+											</div>
+										</li>
+										<li class="c-cart__order-item">
+											<div class="c-cart__order-wrap">
+												<div class="c-cart__order-picture">
+													<a href="">
+														<img src="img/products/4.jpg" alt="">
+													</a>
+												</div>
+											</div>
+											<div class="c-cart__order-content">
+												<div class="c-cart__order-inner">
+													<div class="c-cart__order-article">
+														Артикул:
+														<span>AT35004</span>
+													</div>
+													<a href="" class="c-cart__order-title">
+														Радиатор биметаллический Atlant Bimet 350 - 4 секции (подключение боковое,
+														цвет белый)
+													</a>
+												</div>
+												<div class="c-cart__bottom">
+													<div class="c-cart__status">
+														<div class="status _available">
+															<i class="status__icon">
+																<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+																	<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+																</svg>
+															</i>
+															<span class="status__text">
+																в наличие
+															</span>
+														</div>
+													</div>
+													<div class="c-cart__wrap">
+														<div class="c-cart__quantity">
+															<div class="c-cart__firstPrice"></div>
+															<div class="quantity">
+																<div class="quantity__button quantity__button_minus _icon-minus">
+																	<svg width="12" height="2" viewBox="0 0 12 2" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-2-7h16V9H-2z"></path>
+																			<path class="fill" fill="#000" d="M0 0h12v2H0z"></path>
+																		</g>
+																	</svg>
+																</div>
+																<div class="quantity__input">
+																	<input autocomplete="off" type="text" name="form[]" value="1">
+																</div>
+																<div class="quantity__button quantity__button_plus _icon-plus">
+																	<svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+																		<g fill="none" fill-rule="evenodd">
+																			<path d="M-3-3h16v16H-3z"></path>
+																			<path d="M6 0v4h4v2H6v4H4V6H0V4h4V0h2Z" class="fill" fill="#000">
+																			</path>
+																		</g>
+																	</svg>
+																</div>
+															</div>
+														</div>
+
+														<div class="c-cart__price-item">
+															<div class="c-cart__total">
+																<div class="c-cart__summary">
+																	<div class="c-cart__price">50</div>
+																	<span data-type="currency">руб.</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<button type="button" class="c-cart__delete">
+														<svg width="12" height="17" viewBox="0 0 12 17" xmlns="http://www.w3.org/2000/svg">
+															<g fill="none" fill-rule="evenodd">
+																<path d="M-6-3h24v24H-6z"></path>
+																<path d="M1 6.003V16c0 .533.458 1 1 1h7.995c.543 0 1.005-.467 1.005-1V6.003H1ZM4.002 15H2.996V8h1.006v7Zm2.482 0h-.968V8h.968v7Zm2.515-7v7H8V8h.999ZM6.562 0C7.51 0 8.28.757 8.28 1.688v.36h1.715c1.106 0 2.005.883 2.005 1.97L11.999 4H.001l.005-.13c.073-.969.863-1.745 1.85-1.817l.149-.005H3.72v-.36C3.72.758 4.49 0 5.438 0Zm0 .95H5.438c-.414 0-.75.331-.75.738v.36h2.624v-.36a.745.745 0 0 0-.75-.737Z" class="fill" fill="#000"></path>
+															</g>
+														</svg>
+													</button>
+												</div>
+
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="c-cart__orderForm">
+									<div class="c-cart__head">
+										<h2 class="c-cart__title">
+											Оформление заказа
+										</h2>
+									</div>
+
+									<div data-tabs class="tabs">
+										<nav data-tabs-titles class="tabs__navigation">
+											<button type="button" class="tabs__title _tab-active">Частное лицо</button>
+											<button type="button" class="tabs__title">Организация</button>
+										</nav>
+
+										<div data-tabs-body class="tabs__content">
+											<div class="tabs__body">
+												<div class="c-cart__checkout">
+
+													<!-- Блок контактные данные -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Контактные данные
+														</h3>
+
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="name" class="form-input" name="form[]" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите имя" data-validate>
+																	<label class="form-label" for="name">Имя<sup> *</sup></label>
+
+																</div>
+															</div>
+
+
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="surname" class="form-input" name="form[]" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите фамилию" data-validate>
+																	<label class="form-label" for="surname">Фамилия<sup>
+																			*</sup></label>
+																</div>
+
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="patronymic" class="form-input" name="form[]" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите отчество" data-validate>
+																	<label class="form-label" for="patronymic">Отчество<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="phone" class="form-input phone-mask" autocomplete="off" name="form[]" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите телефон" data-validate>
+																	<label class="form-label" for="phone">Телефон<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="phoneAdd" class="form-input phone-mask _border" autocomplete="off" type="text" placeholder="none">
+																	<label class="form-label" for="phoneAdd">Дополнительный
+																		телефон</label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="mail" class="form-input" autocomplete="off" name="form[]" type="email" placeholder="none" data-required data-error="Пожалуйста, укажите эл. почту" data-validate>
+																	<label class="form-label" for="mail">Email (для счета)<sup>
+																			*</sup></label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок выбор доставки -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Доставка
+														</h3>
+														<div class="c-cart__gridSelect" data-group="deliveryOptions">
+															<label class="cardSelect _active">
+																<input class="cardSelect__input" type="radio" name="deliveryOption" data-show="moscowDelivery" checked>
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Москва в пределах МКАД
+																	</h6>
+																	<p class="cardSelect__cost">
+																		500 руб.
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Доставка по Москве">
+																<input type="hidden" class="delivery-cost" value="500">
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="deliveryOption" data-show="pickupDelivery">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Самовывоз Comtermo
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Бесплатно
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Пункт выдачи Comtermo">
+																<input type="hidden" class="delivery-cost" value="0">
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="deliveryOption" data-show="areaDelivery">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Область (в пределах 100 км от МКАД)
+																	</h6>
+																	<p class="cardSelect__cost">
+																		1 км + 40 руб.
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Доставка в область">
+																<input type="hidden" class="delivery-cost" value="0">
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="deliveryOption" data-show="transportDelivery">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Доставка транспортной компанией
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Рассчитывается компанией
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Доставка транспортной компанией">
+																<input type="hidden" class="delivery-cost" value="500">
+															</label>
+
+
+														</div>
+													</div>
+
+													<!-- Блок доставки по Москве -->
+													<div class="c-cart__checkout-section" data-block="moscowDelivery">
+														<h3 class="c-cart__title">
+															Адрес доставки
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="street" class="form-input" name="form[]" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите улицу" data-validate placeholder="none">
+																	<label class="form-label" for="street">Улица<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="home" class="form-input" name="form[]" autocomplete="off" type="text" data-required data-error="Пожалуйста, укажите дом" data-validate placeholder="none">
+																	<label class="form-label" for="home">Дом<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control form-control-select">
+																	<select name="form[]" class="form" data-error="Выберите интервал доставки" data-validate data-required>
+																		<option selected value="">Временный интервал</option>
+																		<option value="2">с 9:00 до 18:00</option>
+																		<option value="3">с 18:00 до 23:00</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок доставки за МКАД -->
+													<div class="c-cart__checkout-section" data-block="areaDelivery" style="display: none;">
+														<h3 class="c-cart__title">
+															Адрес доставки
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="mkad" class="form-input mkad" autocomplete="off" type="number" min="1" max="100" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите расстояние от МКАД" data-validate>
+																	<label class="form-label" for="mkad">Удаленности от МКАД<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="district4" class="form-input" autocomplete="off" type="text" placeholder="none">
+																	<label class="form-label" for="district4">Район</label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="сity" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите город" data-validate>
+																	<label class="form-label" for="сity">Город<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="street2" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите улицу" data-validate>
+																	<label class="form-label" for="street2">Улица<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="home2" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите дом" data-validate>
+																	<label class="form-label" for="home2">Дом<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control form-control-select">
+																	<select name="form[]" class="form" data-error="Выберите интервал доставки" data-validate data-required>
+																		<option selected value="">Временный интервал</option>
+																		<option value="2">с 9:00 до 18:00</option>
+																		<option value="3">с 18:00 до 23:00</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок адрес доставки транспортная компания -->
+													<div class="c-cart__checkout-section" data-block="transportDelivery" style="display: none;">
+														<h3 class="c-cart__title">
+															Адрес доставки
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="district" class="form-input" autocomplete="off" type="text" placeholder="none">
+																	<label class="form-label" for="district">Район</label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="city" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите город" data-validate>
+																	<label class="form-label" for="city">Город<sup> *</sup></label>
+																</div>
+															</div>
+
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="street3" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите улицу" data-validate>
+																	<label class="form-label" for="street3">Улица<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="home3" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите дом" data-validate>
+																	<label class="form-label" for="home3">Дом<sup> *</sup></label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок Грузополучатель -->
+													<div class="c-cart__checkout-section" data-block="transportDelivery" style="display: none;">
+														<h3 class="c-cart__title">
+															Грузополучатель
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="transportCompany" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Обязательное поле" data-validate>
+																	<label class="form-label" for="transportCompany">Траспортная
+																		компания<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<select name="form[]" class="form" data-error="Обязательное поле" data-required data-validate>
+																	<option value="1" selected>Требуется жесткая упаковка?
+																	</option>
+																	<option value="2">Да</option>
+																	<option value="3">Нет</option>
+																</select>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="name2" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите имя" data-validate>
+																	<label class="form-label" for="name2">Имя<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="surname2" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите фамилию" data-validate>
+																	<label class="form-label" for="surname2">Фамилия<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="patronymic2" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите отчество" data-validate>
+																	<label class="form-label" for="patronymic2">Отчество<sup>
+																			*</sup></label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок пункт выдачи -->
+													<div class="c-cart__checkout-section" data-block="pickupDelivery" style="display: none;">
+														<h3 class="c-cart__title">
+															Пункт выдачи
+														</h3>
+														<div class="c-cart__map">
+															<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A14d7198a3f0fcbdedf85df44d4dd92517b2c1658d36e71d2a46d529243846038&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+														</div>
+
+													</div>
+
+													<!-- Как к нам проехать -->
+													<div class="c-cart__checkout-section" data-block="pickupDelivery" style="display: none;">
+														<h3 class="c-cart__title">
+															Как добраться
+														</h3>
+														<div class="c-cart__about">
+															<div class="c-cart__about-top">
+																<h4 class="c-cart__about-title">
+																	<i class="icon-brand-small"></i> Самовывоз Comtermo
+																</h4>
+																<p class="c-cart__about-text">
+																	117405, г. Москва, м. Аннино, ул. Дорожная, д. 54, к. 5, офис
+																	301, (Таможенный терминал "Чертановский")
+																</p>
+																<p class="c-cart__metro">
+																	<span class="c-cart__metro-circle"></span>
+																	Аннино
+																</p>
+															</div>
+															<div class="c-cart__contacts">
+																<h5 class="c-cart__contacts-title">
+																	Режим работы
+																</h5>
+																<p class="c-cart__contacts-text">
+																	Понедельник — Пятница: 09:00 — 19:00
+																</p>
+																<p class="c-cart__contacts-text">
+																	Суббота — Воскресенье: Выходной
+																</p>
+															</div>
+															<div class="c-cart__contacts">
+																<h5 class="c-cart__contacts-title">
+																	Как добраться
+																</h5>
+																<p class="c-cart__contacts-text">
+																	м. Аннино, выход 3. Необходимо пройти под мостом, 50 метров
+																	вдоль дороги, повернуть направо за синим зданием.
+																</p>
+															</div>
+														</div>
+
+
+													</div>
+
+													<!-- Блок способ оплаты -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Способ оплаты
+														</h3>
+														<div class="c-cart__gridSelect" data-group="paymentOptions">
+															<label class="cardSelect _active">
+																<input class="cardSelect__input" type="radio" name="paymentOption" checked="">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Наличными
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Оплата наличными при получении заказа
+																	</p>
+																</div>
+																<div class="tippy-info" data-tippy-content="Данный способ оплаты предусматривает оплату товара при получении в пункте самовывоза и позволяет сэкономить на доставке. Также данный способ оплаты обязателен при сумме заказа более 200.000р. в качестве 100% предоплаты.">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+																		<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+																		<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+																	</svg>
+																</div>
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="paymentOption">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Онлайн
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Оплата банковской картой через сайт
+																	</p>
+																	<ul class="c-cart__payment-wrap">
+																		<li>
+																			<i class="icon-mastercard"></i>
+																		</li>
+																		<li>
+																			<i class="icon-visa"></i>
+																		</li>
+																		<li>
+																			<i class="icon-mir"></i>
+																		</li>
+																	</ul>
+																</div>
+																<div class="tippy-info" data-tippy-content="Данный способ удобен тем, что Вы не тратите свое время на оплату квитанции через банк. При оплате банковской картой, Вы можете быть уверены в 100% безопасности платежа, поскольку он проходит по технологии 3-D Secure (подтверждение паролями на странице банка). Комиссия не взимается.">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+																		<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+																		<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+																	</svg>
+																</div>
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="paymentOption">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Картой курьеру
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Оплата картой курьеру при получении заказа
+																	</p>
+
+																	<ul class="c-cart__payment-wrap">
+																		<li>
+																			<i class="icon-mastercard"></i>
+																		</li>
+																		<li>
+																			<i class="icon-visa"></i>
+																		</li>
+																		<li>
+																			<i class="icon-mir"></i>
+																		</li>
+																	</ul>
+																</div>
+																<div class="tippy-info" data-tippy-content="Данный способ оплаты предусматривает оплату товара банковской картой курьеру при получении. Исключение составляют товары со статусом Под заказ, реализация и доставка которых осуществляется после внесения покупателем 100% предоплаты стоимости товара.">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+																		<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+																		<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+																	</svg>
+																</div>
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="paymentOption">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Картой или наличными
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Оплата банковской картой или наличными
+																	</p>
+																</div>
+																<div class="tippy-info" data-tippy-content="Данный способ оплаты предусматривает оплату товара банковской картой курьеру при получении. Исключение составляют товары со статусом Под заказ, реализация и доставка которых осуществляется после внесения покупателем 100% предоплаты стоимости товара.">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+																		<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+																		<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+																	</svg>
+																</div>
+															</label>
+
+														</div>
+
+													</div>
+
+													<!-- Блок Дополнительная информация -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Дополнительная информация
+														</h3>
+														<textarea rows="5" class="form-textarea" placeholder="Комментарий к заказу"></textarea>
+													</div>
+
+
+
+
+												</div>
+
+											</div>
+											<div class="tabs__body">
+												<div class="c-cart__checkout">
+													<!-- Реквизиты компании -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Реквизиты организации
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col">
+																<div class="form-control">
+																	<input id="nameorg" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите организацию" data-validate="">
+																	<label class="form-label" for="nameorg">Наименование
+																		оранизации<sup>
+																			*</sup></label>
+																</div>
+															</div>
+
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="inn" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите ИНН" data-validate="">
+																	<label class="form-label" for="inn">ИНН<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="kpp" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите КПП" data-validate="">
+																	<label class="form-label" for="kpp">КПП<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="bik" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите БИК" data-validate="">
+																	<label class="form-label" for="bik">БИК<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="rs" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите расчетный счет" data-validate="">
+																	<label class="form-label" for="rs">Расчетный счет<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="korshet" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите кор. счет" data-validate="">
+																	<label class="form-label" for="korshet">Кор. счёт<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="bank_name" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-error="Обязательное поле" data-validate="" data-required>
+																	<label class="form-label" for="bank_name">Наименование
+																		банка<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="urid_adres" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Обязательное поле" data-validate="">
+																	<label class="form-label" for="urid_adres">Юридический
+																		адрес<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="fact_adres" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Обязательное поле" data-validate="">
+																	<label class="form-label" for="fact_adres">Фактический
+																		адрес<sup>
+																			*</sup></label>
+																</div>
+															</div>
+														</div>
+														<div class="form__row-attached">
+															<h4 class="form__attached-title">
+																Карточка организации
+															</h4>
+															<div class="form__attached-wrap">
+																<div class="form__attached">
+																	<input type="file" id="fileInput" accept=".doc, .docx, .pdf">
+																	<label for="fileInput" class="form__attached-btn">Прикрепить
+																		файл
+																		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+																			<path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z" />
+																		</svg>
+																	</label>
+																</div>
+																<div class="form__fileList" id="fileList"></div>
+															</div>
+															<p class="form__attached-text">
+																<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+																	<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+																</svg>
+																Чтобы не заполнять вручную, можно прикрепить файл
+															</p>
+														</div>
+													</div>
+
+													<!-- Блок контактные данные -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Контактные данные
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="name3" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите имя" data-validate="">
+																	<label class="form-label" for="name3">Имя<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="surname3" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите фамилию" data-validate="">
+																	<label class="form-label" for="surname3">Фамилия<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="patronymic3" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите отчество" data-validate="">
+																	<label class="form-label" for="patronymic3">Отчество<sup>
+																			*</sup></label>
+																</div>
+															</div>
+
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="phone3" class="form-input phone-mask" autocomplete="off" type="text" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите телефон" data-validate="">
+																	<label class="form-label" for="phone3">Телефон<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="phoneAdd2" class="form-input phone-mask _border" autocomplete="off" type="text" placeholder="none">
+																	<label class="form-label" for="phoneAdd2">Дополнительный
+																		телефон</label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="mail2" class="form-input" autocomplete="off" type="email" placeholder="none" name="form[]" data-required="" data-error="Пожалуйста, укажите эл. почту" data-validate="">
+																	<label class="form-label" for="mail2">Email<sup> *</sup></label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок выбор доставки -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Доставка
+														</h3>
+														<div class="c-cart__gridSelect" data-group="deliveryOptionsTwo">
+															<label class="cardSelect _active">
+																<input class="cardSelect__input" type="radio" name="deliveryOptionTwo" data-show="moscowDeliveryTwo" checked>
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Москва в пределах МКАД
+																	</h6>
+																	<p class="cardSelect__cost">
+																		500 руб.
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Доставка по Москве">
+																<input type="hidden" class="delivery-cost" value="500">
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="deliveryOptionTwo" data-show="pickupDeliveryTwo">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Самовывоз Comtermo
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Бесплатно
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Пункт выдачи Comtermo">
+																<input type="hidden" class="delivery-cost" value="0">
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="deliveryOptionTwo" data-show="areaDeliveryTwo">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Область (в пределах 100 км от МКАД)
+																	</h6>
+																	<p class="cardSelect__cost">
+																		1 км + 40 руб.
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Доставка в область">
+																<input type="hidden" class="delivery-cost" value="0">
+															</label>
+															<label class="cardSelect">
+																<input class="cardSelect__input" type="radio" name="deliveryOptionTwo" data-show="transportDeliveryTwo">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Доставка транспортной компанией
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Рассчитывается компанией
+																	</p>
+																</div>
+																<input type="hidden" class="delivery-method" value="Доставка транспортной компанией">
+																<input type="hidden" class="delivery-cost" value="500">
+															</label>
+														</div>
+
+
+													</div>
+
+													<!-- Блок доставки по Москве -->
+													<div class="c-cart__checkout-section" data-block="moscowDeliveryTwo">
+														<h3 class="c-cart__title">
+															Адрес доставки
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="street4" class="form-input" name="form[]" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите улицу" data-validate placeholder="none">
+																	<label class="form-label" for="street4">Улица<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="home4" class="form-input" name="form[]" autocomplete="off" type="text" data-required data-error="Пожалуйста, укажите дом" data-validate placeholder="none">
+																	<label class="form-label" for="home4">Дом<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control form-control-select">
+																	<select name="form[]" class="form" data-error="Выберите интервал доставки" data-validate data-required>
+																		<option selected value="">Временный интервал</option>
+																		<option value="2">с 9:00 до 18:00</option>
+																		<option value="3">с 18:00 до 23:00</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок доставки за МКАД -->
+													<div class="c-cart__checkout-section" data-block="areaDeliveryTwo" style="display: none;">
+														<h3 class="c-cart__title">
+															Адрес доставки
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="mkad2" class="form-input mkad" autocomplete="off" type="number" min="1" max="100" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите расстояние от МКАД" data-validate>
+																	<label class="form-label" for="mkad2">Удаленности от МКАД<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="district2" class="form-input" autocomplete="off" type="text" placeholder="none">
+																	<label class="form-label" for="district2">Район</label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="сity2" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите город" data-validate>
+																	<label class="form-label" for="сity2">Город<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="street5" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите улицу" data-validate>
+																	<label class="form-label" for="street5">Улица<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="home5" class="form-input" autocomplete="off" type="text" placeholder="none" name="form[]" data-required data-error="Пожалуйста, укажите дом" data-validate>
+																	<label class="form-label" for="home5">Дом<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control form-control-select">
+																	<select name="form[]" class="form" data-error="Выберите интервал доставки" data-validate data-required>
+																		<option selected value="">Временный интервал</option>
+																		<option value="2">с 9:00 до 18:00</option>
+																		<option value="3">с 18:00 до 23:00</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок адрес доставки транспортная компания -->
+													<div class="c-cart__checkout-section" data-block="transportDeliveryTwo" style="display: none;">
+														<h3 class="c-cart__title">
+															Адрес доставки
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="district3" class="form-input" autocomplete="off" type="text" placeholder="none">
+																	<label class="form-label" for="district3">Район</label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="city2" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите город" data-validate>
+																	<label class="form-label" for="city2">Город<sup> *</sup></label>
+																</div>
+															</div>
+
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="street6" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите улицу" data-validate>
+																	<label class="form-label" for="street6">Улица<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4 col-lg-3">
+																<div class="form-control">
+																	<input id="home6" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите дом" data-validate>
+																	<label class="form-label" for="home6">Дом<sup> *</sup></label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок Грузополучатель -->
+													<div class="c-cart__checkout-section" data-block="transportDeliveryTwo" style="display: none;">
+														<h3 class="c-cart__title">
+															Грузополучатель
+														</h3>
+														<div class="form__row-grid">
+															<div class="form__col-grid col col-sm-6">
+																<div class="form-control">
+																	<input id="transportCompany2" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Обязательное поле" data-validate>
+																	<label class="form-label" for="transportCompany2">Траспортная
+																		компания<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6">
+																<select name="form[]" class="form" data-error="Обязательное поле" data-required data-validate>
+																	<option value="1" selected>Требуется жесткая упаковка?
+																	</option>
+																	<option value="2">Да</option>
+																	<option value="3">Нет</option>
+																</select>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="name4" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите имя" data-validate>
+																	<label class="form-label" for="name4">Имя<sup> *</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="surname4" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите фамилию" data-validate>
+																	<label class="form-label" for="surname4">Фамилия<sup>
+																			*</sup></label>
+																</div>
+															</div>
+															<div class="form__col-grid col col-sm-6 col-md-4">
+																<div class="form-control">
+																	<input id="patronymic4" class="form-input" autocomplete="off" type="text" placeholder="none" data-required data-error="Пожалуйста, укажите отчество" data-validate>
+																	<label class="form-label" for="patronymic4">Отчество<sup>
+																			*</sup></label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<!-- Блок пункт выдачи -->
+													<div class="c-cart__checkout-section" data-block="pickupDeliveryTwo" style="display: none;">
+														<h3 class="c-cart__title">
+															Пункт выдачи
+														</h3>
+														<div class="c-cart__map">
+															<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A14d7198a3f0fcbdedf85df44d4dd92517b2c1658d36e71d2a46d529243846038&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+														</div>
+
+													</div>
+
+													<!-- Как к нам проехать -->
+													<div class="c-cart__checkout-section" data-block="pickupDeliveryTwo" style="display: none;">
+														<h3 class="c-cart__title">
+															Как добраться
+														</h3>
+														<div class="c-cart__about">
+															<div class="c-cart__about-top">
+																<h4 class="c-cart__about-title">
+																	<i class="icon-brand-small"></i> Самовывоз Comtermo
+																</h4>
+																<p class="c-cart__about-text">
+																	117405, г. Москва, м. Аннино, ул. Дорожная, д. 54, к. 5, офис
+																	301, (Таможенный терминал "Чертановский")
+																</p>
+																<p class="c-cart__metro">
+																	<span class="c-cart__metro-circle"></span>
+																	Аннино
+																</p>
+															</div>
+															<div class="c-cart__contacts">
+																<h5 class="c-cart__contacts-title">
+																	Режим работы
+																</h5>
+																<p class="c-cart__contacts-text">
+																	Понедельник — Пятница: 09:00 — 19:00
+																</p>
+																<p class="c-cart__contacts-text">
+																	Суббота — Воскресенье: Выходной
+																</p>
+															</div>
+															<div class="c-cart__contacts">
+																<h5 class="c-cart__contacts-title">
+																	Как добраться
+																</h5>
+																<p class="c-cart__contacts-text">
+																	м. Аннино, выход 3. Необходимо пройти под мостом, 50 метров
+																	вдоль дороги, повернуть направо за синим зданием.
+																</p>
+															</div>
+														</div>
+
+
+													</div>
+
+													<!-- Блок способ оплаты -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Способ оплаты
+														</h3>
+														<div class="c-cart__gridSelect" data-group="paymentOptions">
+															<label class="cardSelect _active">
+																<input class="cardSelect__input" type="radio" name="cashlessPaymentOption" checked="">
+																<div class="cardSelect__icon"></div>
+																<div class="cardSelect__wrap">
+																	<h6 class="cardSelect__title">
+																		Безналичный расчет
+																	</h6>
+																	<p class="cardSelect__cost">
+																		Оплата по счету
+																	</p>
+																</div>
+																<div class="tippy-info" data-tippy-content="Данный вид оплаты производится по счету, который выставляет менеджер интернет-магазина по заполненным или высланным нам реквизитам. Срок оплаты счета - до 3 (трех) дней. По истечении этого срока резерв товара на складе и актуальность цен не гарантируется. Товар отгружается в течение 2 (двух) суток после поступления денежных средств на наш счет, исключение составляют случаи оформления товаров поставляемых под заказ">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+																		<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+																		<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+																	</svg>
+																</div>
+															</label>
+														</div>
+													</div>
+
+													<!-- Блок дополнительная информация -->
+													<div class="c-cart__checkout-block">
+														<h3 class="c-cart__title">
+															Дополнительная информация
+														</h3>
+														<textarea rows="5" class="form-textarea" placeholder="Комментарий к заказу"></textarea>
+													</div>
+
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<aside class="c-cart__aside">
+								<div class="c-cart__aside-wrap sticky">
+
+
+
+
+									<div class="c-cart__paymentDetails">
+										<div class="c-cart__infoBlock">
+											<div class="c-cart__infoRow">
+												<div class="c-cart__infoLeft">
+													Ваши товары
+													<span class="cart__infoLeft-number">
+														(0)
+													</span>
+												</div>
+												<div class="c-cart__infoRight">
+													<span class="c-cart__infoPrice">0</span>
+													<span data-type="currency">руб.</span>
+												</div>
+												</span>
+											</div>
+
+											<div class="c-cart__infoRow">
+												<div class="c-cart__infoLeft">
+													Способ получения
+												</div>
+												<div id="deliveryMethod" class="c-cart__infoRight"></div>
+												</span>
+											</div>
+
+											<div class="c-cart__infoRow">
+												<div class="c-cart__infoLeft">
+													Стоимость доставки
+												</div>
+												<div class="c-cart__infoRight">
+													<span id="deliveryInfo" class="c-cart__infoPrice deliveryInfo"></span>
+												</div>
+												</span>
+											</div>
+											<div class="c-cart__TotalRow">
+												<div class="c-cart__TotalInfo">
+													Итого к оплате:
+												</div>
+												<div class="c-cart__TotalRight">
+													<span class="c-cart__totalPrice">0</span>
+													<span data-type="currency">руб.</span>
+												</div>
+											</div>
+											<button class="btn__primary" type="submit">
+												<span>Оформить заказ</span>
+											</button>
+
+
+
+											<p class="c-cart__disclaimer">Нажимая на кнопку "Оформить заказ", Вы
+												соглашаетесь с
+												<a class="link" href="">условиями оферты</a> и
+												<a class="link" href="">политики конфиденциальности</a>
+											</p>
+
+										</div>
+
+									</div>
+
+
+
+
+
+								</div>
+							</aside>
+
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<div id="clearCart" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__clear-cart">
+				<div class="popup__top">
+					<h2 class="popup__title">
+						Очистить корзину?
+					</h2>
+					<button data-close type="button" class="popup__close">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+							<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+						</svg>
+					</button>
+				</div>
+				<div class="popup__bottom-wrap">
+					<button id="confirmClearCartButton" type="button" class="btn__small-primary" data-close>Потвердить</button>
+					<button class="btn__small-secondary" type="button" data-close>Отменить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/app.min.js?_v=20240312124849"></script>
+
+
+</body>
+
+</html>
